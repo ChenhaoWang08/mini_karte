@@ -1,0 +1,97 @@
+:root {
+  /* Raw palette */
+  --graphite-950: #181917;
+  --graphite-900: #20211f;
+  --graphite-800: #292a27;
+  --graphite-700: #343531;
+  --concrete-500: #666760;
+  --concrete-300: #929188;
+  --concrete-100: #c0bcaf;
+  --paper: #d9d3c4;
+  --paper-bright: #e5dfd0;
+  --soviet-red: #a52a2a;
+  --signal-red: #c13a32;
+  --oxide-red: #762421;
+
+  /* Semantic colors */
+  --color-bg-workspace: var(--graphite-950);
+  --color-bg-panel: var(--graphite-900);
+  --color-bg-raised: var(--graphite-800);
+  --color-bg-hover: var(--graphite-700);
+  --color-bg-selected: #30312e;
+  --color-bg-input: #1c1d1b;
+  --color-bg-chrome: #1b1c1a;
+  --color-bg-render: #151614;
+  --color-paper: var(--paper);
+  --color-paper-muted: var(--concrete-100);
+  --color-border: #3f403b;
+  --color-border-strong: #5c5d56;
+  --color-divider: #343531;
+  --color-text-primary: var(--paper-bright);
+  --color-text-secondary: var(--concrete-100);
+  --color-text-muted: var(--concrete-300);
+  --color-text-disabled: var(--concrete-500);
+  --color-accent: var(--soviet-red);
+  --color-accent-bright: var(--signal-red);
+  --color-selection: rgba(165, 42, 42, 0.42);
+  --color-shadow: rgba(0, 0, 0, 0.3);
+  --color-data-live: #7f9a72;
+  --color-data-static: #b8a874;
+  --color-data-stale: #a47c54;
+  --color-success: #7f9a72;
+  --color-warning: #b8a15f;
+  --color-error: var(--signal-red);
+
+  /* Typography */
+  --font-display: "Russo One", sans-serif;
+  --font-interface: "IBM Plex Sans Condensed", "Arial Narrow", sans-serif;
+  --font-body: "IBM Plex Sans", system-ui, sans-serif;
+  --font-data: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+  --text-2xs: 9px;
+  --text-xs: 10px;
+  --text-sm: 11px;
+  --text-md: 12px;
+  --text-lg: 14px;
+  --text-xl: 18px;
+  --text-display: 24px;
+  --leading-tight: 1.1;
+  --leading-normal: 1.35;
+  --leading-body: 1.5;
+
+  /* Spacing */
+  --space-1: 2px;
+  --space-2: 4px;
+  --space-3: 8px;
+  --space-4: 12px;
+  --space-5: 16px;
+  --space-6: 24px;
+  --space-7: 32px;
+  --space-8: 48px;
+
+  /* Geometry */
+  --border-thin: 1px;
+  --border-accent: 2px;
+  --radius-none: 0;
+  --radius-sm: 2px;
+  --radius-md: 3px;
+
+  /* Layout */
+  --topbar-height: 46px;
+  --activity-width: 48px;
+  --explorer-min: 220px;
+  --explorer-default: 280px;
+  --explorer-max: 420px;
+  --inspector-min: 280px;
+  --inspector-default: 340px;
+  --inspector-max: 480px;
+  --viewport-min: 480px;
+  --statusbar-height: 28px;
+  --bottom-panel-height: 0px;
+
+  /* Motion and layers */
+  --transition-fast: 90ms ease;
+  --transition-standard: 140ms ease;
+  --z-base: 1;
+  --z-overlay: 20;
+  --z-tooltip: 50;
+}

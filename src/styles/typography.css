@@ -1,0 +1,153 @@
+/* Locally bundled, OFL-licensed typefaces. See /public/fonts/README.md. */
+@font-face {
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/russo-one/RussoOne-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IBM Plex Sans Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/ibm-plex/sans-condensed/IBMPlexSansCondensed-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "IBM Plex Sans Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/ibm-plex/sans-condensed/IBMPlexSansCondensed-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "IBM Plex Sans Condensed";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/fonts/ibm-plex/sans-condensed/IBMPlexSansCondensed-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/ibm-plex/sans/IBMPlexSans-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/ibm-plex/sans/IBMPlexSans-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/ibm-plex/mono/IBMPlexMono-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/ibm-plex/mono/IBMPlexMono-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/fonts/ibm-plex/mono/IBMPlexMono-SemiBold.woff2") format("woff2");
+}
+
+.mk-display {
+  font-family: var(--font-display);
+  font-size: var(--text-display);
+  font-weight: 400;
+  letter-spacing: 0.045em;
+  line-height: var(--leading-tight);
+}
+
+.mk-panel-title,
+.mk-section-title,
+.mk-label,
+.mk-secondary-label {
+  font-family: var(--font-interface);
+  text-transform: uppercase;
+}
+
+.mk-panel-title {
+  color: var(--color-text-primary);
+  font-size: var(--text-md);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.mk-section-title {
+  color: var(--color-paper);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.mk-label {
+  color: var(--color-text-muted);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  letter-spacing: 0.11em;
+}
+
+.mk-body {
+  color: var(--color-text-secondary);
+  font-family: var(--font-body);
+  font-size: var(--text-md);
+  line-height: var(--leading-body);
+}
+
+.mk-data,
+.mk-data-large,
+.mk-unit,
+.mk-object-id {
+  font-family: var(--font-data);
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+.mk-data {
+  font-size: var(--text-sm);
+  letter-spacing: 0.025em;
+}
+
+.mk-data-large {
+  color: var(--color-text-primary);
+  font-size: var(--text-xl);
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.mk-unit {
+  color: var(--color-text-muted);
+  font-size: var(--text-xs);
+}
+
+.mk-object-id {
+  color: var(--color-text-secondary);
+  font-size: var(--text-xs);
+  letter-spacing: 0.06em;
+}
+
+.mk-secondary-label {
+  color: var(--color-text-muted);
+  font-size: var(--text-xs);
+  letter-spacing: 0.1em;
+}

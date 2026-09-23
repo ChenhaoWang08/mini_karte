@@ -1,21 +1,9 @@
-import * as THREE from 'three'
+import AppShell from './app/AppShell'
+import './styles/tokens.css'
+import './styles/typography.css'
+import './styles/global.css'
+import './styles/layout.css'
 
 export default function App() {
-  return (
-    <main>
-      <h1>Mini Karte</h1>
-      <p>Runtime foundation operational.</p>
-
-      <dl>
-        <dt>React</dt>
-        <dd>Operational</dd>
-
-        <dt>TypeScript</dt>
-        <dd>Operational</dd>
-
-        <dt>Three.js</dt>
-        <dd>r{THREE.REVISION}</dd>
-      </dl>
-    </main>
-  )
+  return <AppShell />
 }
